@@ -5,6 +5,7 @@ from django.test import Client, TestCase
 from django.urls import reverse
 
 from notes.forms import WARNING
+from pytils.translit import slugify
 from notes.models import Note
 
 User = get_user_model()
