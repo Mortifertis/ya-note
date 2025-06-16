@@ -1,0 +1,1 @@
+testpaths = notes/pytest_tests
